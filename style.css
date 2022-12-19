@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    padding: 20px 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .logo{
+    width: 100px;
+}
+.nav-srch-btn{
+    padding: 10px 0;
+   width: 450px;
+    border-radius: 20px;
+    border: 1px solid slategrey;
+    color:slategrey;
+}
+.nav-ctn-btn .nav-btn{
+    padding: 10px;
+}
+.btn1{
+padding:15px 5px;
+background-color: #fff;
+border: 1px solid black;
+color: black;
+font-weight: 700;
+}
+.btn2{
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+}
+.hero-session{
+    position: relative;
+}
+.hero-banner-img{
+    width: 100vw;
+}
+.hero-banner-img img{
+width: 100%;
+}
+.hero-banner-contnt{
+    position: absolute;
+    padding: 20px 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    top: 90px;
+    left: 60px;
+    background-color: #fff;
+}
+.hero-banner-contn,h1{
+    font-size: 40px;
+}
+.hero-banner-contn,.sale-course{
+    margin-top: 10px;
+    font-size: 22px;
+    width: 400px;
+    color: #1c1d1f;
+}
