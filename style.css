@@ -16,7 +16,7 @@ nav .logo{
 }
 .nav-srch-btn{
     padding: 10px 0;
-   width: 450px;
+    width: 450px;
     border-radius: 20px;
     border: 1px solid slategrey;
     color:slategrey;
@@ -61,4 +61,36 @@ width: 100%;
     font-size: 22px;
     width: 400px;
     color: #1c1d1f;
+}
+.course-selection{
+    margin: 20px;
+    padding: 50px;
+}
+.listed-course h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.courses li{
+    list-style: none;
+    /* line-height: 1.5; */
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.video-selection{
+    margin: 20px;
+    padding: 30px;
+    border: 1px solid slategrey;
+}
+.cntnt-p{
+    line-height: 1.5;
+    width: 730px;
+}
+.explore-btn{
+    padding: 10px 15px;
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
 }
