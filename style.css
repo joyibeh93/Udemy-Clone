@@ -132,12 +132,17 @@ line-height: 1.5em;
     font-size: 14px;
     margin-top: 5px;
 }
-.best{
-    background-color: rgb(243, 175, 30);
-    padding: 5px;
+.best-seller{
+    color: #3D3C0A;
+    background-color: #ECEB98;
+    font-size: 14px;
+    padding: 4px 8px;
+    margin: 0px 8px 0px 0px;
+    font-weight: 600;
 }
+/* STYLING LEARNERS SESSION */
 .learner-session{
-    padding: 30px;
+    padding: 70px;
     background-color: #d1d7dc;
     /* opacity: 0.7; */
 }
@@ -153,15 +158,21 @@ line-height: 1.5em;
     background-color: #fff;
     padding: 45px 55px;
 }
-h3{
+/* h3{
     font-size: 20px;
-}
+} */
 .grid-cnt-p{
     font-size: 18px;
     line-height: 1.5em;
 }
 .test-name{
     margin-top: 10px;
+}
+.ron-name{
+    margin-top: 85px;
+}
+hr{
+    margin-top: 15px;
 }
 .test-name-span{
 padding: 5px 6px;
@@ -198,7 +209,23 @@ font-size: 14px;
     margin-right: 10px;
     text-align: center;
 }
+.fa-play-icon2{
+    width: 35px;
+    height: 30px; 
+}
 .fa-play{
     text-align: center;
     margin: 7px;
 }
+/* SYTLING STUDENT VIEWING SESSION  AND TOP CATEGORIES*/
+.student-viewing,.top-categories{
+    padding: 30px;
+}
+.cat-cnt{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* cat-img{
+    transition: transform 100 ms ease-in cubic-bezier(.2,0,1,9);
+} */
