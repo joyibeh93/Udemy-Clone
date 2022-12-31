@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 header nav{
     padding: 20px 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -42,7 +45,10 @@ font-weight: 700;
 .hero-banner-img{
     width: 100vw;
 }
-.hero-banner-img img{
+.git{
+    width: 100%;
+}
+.hero-img{
 width: 100%;
 }
 .hero-banner-contnt{
@@ -67,8 +73,12 @@ width: 100%;
     padding: 50px;
 }
 .listed-course h2{
-    font-size: 30px;
+   
     margin-bottom: 10px;
+}
+h2{
+    font-size: 30px;
+    color: #1c1d1f;  
 }
 .courses li{
     list-style: none;
@@ -77,6 +87,9 @@ width: 100%;
     margin: 20px 10px;
     font-size: 20px;
     font-weight: 700;
+}
+.active-list{
+    color: #000;   
 }
 .child-list{
     color: #6A6F73;
@@ -143,7 +156,8 @@ line-height: 1.5em;
 /* STYLING LEARNERS SESSION */
 .learner-session{
     padding: 70px;
-    background-color: #d1d7dc;
+    /* background-color: #d1d7dc; */
+    background-color:#f7f9fa;
     /* opacity: 0.7; */
 }
 .grid-container2{
@@ -157,12 +171,14 @@ line-height: 1.5em;
 .grid-cnt{
     background-color: #fff;
     padding: 45px 55px;
+    border: 1px solid #d1d7dc;
+    
 }
 /* h3{
     font-size: 20px;
 } */
 .grid-cnt-p{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5em;
 }
 .test-name{
@@ -218,8 +234,8 @@ font-size: 14px;
     margin: 7px;
 }
 /* SYTLING STUDENT VIEWING SESSION  AND TOP CATEGORIES*/
-.student-viewing,.top-categories{
-    padding: 30px;
+.student-viewing,.top-categories, .featured-category,.trustee-category{
+    padding: 40px;
 }
 .cat-cnt{
     margin-top: 10px;
@@ -233,6 +249,149 @@ font-size: 14px;
 .cat-img:hover{
     transform: scale(1.05);
     transition: transform 150ms cubic-bezier(0,0,.38,.9);
+}
+ /* STYLING FEATURED CATEGORY */
+ .featured-category{
+    margin-top: 20px;
+ }
+ .featured-category-header{
+    margin-top: 20px;
+ }
+.featured-category{
+    background-color:#f7f9fa;
+}
+.categories-header{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #1c1d1f;
+}
+.categories-content{
+    margin-top: 30px;
+    line-height: 2em;
+}
+
+.categories-content-ul,.categories-content-li a{
+    font-size: 19px;
+    color: #5624d0;
+    font-weight: 700;
+    list-style: none;
+}
+.categories-content-li a:hover{
+    color: #401b9c;
+}
+
+.categories-content-small{
+    font-size: 16px; 
+    color: #6A6F73; 
+    font-weight: 500;  
+}
+.explore-btn-cnt{
+    margin-top: 40px;
+}
+.explore-btn{
+    padding: 10px 20px;
+    font-weight: 700;
+    border: 1px solid #000;
+    font-size: 17px;
+}
+.trustee-team-header,.trustee-team-cnt{
+    margin-top: 30px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.trustee-companies-logo{
+    display: flex;
+   justify-content:space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.udemy-business{
+    display: flex;
+    justify-content: center;
+    margin: 150px 30px;
+}
+.udemy-business-cnt1{
+    width: 550px;
+    margin-top: 35px;
+}
+.udemy-business-logo{
+    width:230px;
+
+}
+.udemy-business-skill{
+    width:500px;
+    margin-top: 20px;
+    line-height: 1em;
+
+}
+.udemy-business-list li{
+    list-style: none;
+    margin-top: 30px;
+    width: 450px;  
+}   
+.courses{
+    padding-left: 33px;
+}
+
+.fa-circle{
+font-size: 10px;
+font-weight: 700;
+}
+.list-span{
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+
+.ubic{
+    width: 450px;
+}
+.ubi{
+    width: 100%;
+}
+.udemy-business-btn{
+    margin-top: 25px;
+}
+.udemy-business-btn1{
+    background-color:#1c1d1f;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 25px;
+    font-size: 17px;
+}
+.udemy-business-btn2{
+    background-color: #fff;
+    color:#1c1d1f;
+    font-weight: 700;
+    padding: 13px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 3px;
+}
+.udemy-business2{
+    width: 650px;
+}
+.instructor-img{
+    width: 100%;
+}
+.instructor-header{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.instructor-vacancy{
+    margin: 150px 50px;
+    width: 400px;
+    
+}
+.instructor-vacancy p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+.btn-stt{
+    display:inline-block;
+    margin-top: 20px;
 }
 
 /* .category-card--category-card--2aGYD img {
